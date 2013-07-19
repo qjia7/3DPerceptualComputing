@@ -37,7 +37,7 @@ static float OldMx = -1.0;
 static float OldMy = -1.0;
 static float rotate_y = 0.0;
 static float r = 2.5, height = 0.0;
-static float Eye_x = 0.0, Eye_y = 0.0, Eye_z = 0.0;
+static float Eye_x = 0.0, Eye_y = 0.0, Eye_z = 0.0;		//—€æ¶Œª÷√
 #define M 3.1415
 static float c = M/180.0;
 //WGL_EXT_extensions_string;
