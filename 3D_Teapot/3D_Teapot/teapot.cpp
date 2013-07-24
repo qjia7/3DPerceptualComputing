@@ -192,7 +192,7 @@ glVertex3f(-2.5, -2.0, 4.0);
 glEnd();
 glPopMatrix();
 
-glPushMatrix();				   //绘制一个茶壶
+glPushMatrix();				   //绘制一个茶壶	   0.5m
 glEnable(GL_LIGHTING);
 glColorMask(1.0, 1.0,0.0,1.0);
 		  
@@ -205,7 +205,7 @@ glRotatef(90, 1.0, 0.0 ,0.0);				//绕x轴旋转90度
 glRotatef((GLfloat) big, 0.0, 1.0, 0.0);
 glRotatef(rotate_y, 0.0, 1.0, 0.0);
 glRotatef(height, 1.0, 0.0 ,0.0);
-//gluLookAt(R*cos(ref*c), height, R*sin(ref*c), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0 );
+//gluLookAt(R*cos(ref*c), height, R*sin(ref*c), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0 );		   
 glutSolidTeapot(0.5);
 glPopMatrix();
 glPopMatrix();						//模型矩阵出栈
